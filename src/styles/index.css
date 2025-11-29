@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Default Theme: Vanilla */
+    --color-primary: 39 86% 67%; /* #f2c97d */
+    --color-secondary: 48 100% 95%; /* #fffbe6 */
+    --color-background: 40 100% 98%; /* #fffcf2 */
+    --color-background-alt: 39 86% 67%;
+    --color-text: 35 33% 40%; /* #857458 */
+    --color-accent: 344 69% 72%; /* #f294a5 */
+  }
+
+  .theme-vanilla {
+    --color-primary: 39 86% 67%; /* #f2c97d */
+    --color-secondary: 48 100% 95%; /* #fffbe6 */
+    --color-background: 40 100% 98%; /* #fffcf2 */
+    --color-background-alt: 48 100% 95%;
+    --color-text: 35 33% 40%; /* #857458 */
+    --color-accent: 344 69% 72%; /* #f294a5 */
+  }
+
+  .theme-chocolate {
+    --color-primary: 30 54% 35%; /* #8a5a2b */
+    --color-secondary: 30 25% 88%; /* #e6e0da */
+    --color-background: 30 33% 96%; /* #f7f5f2 */
+    --color-background-alt: 30 25% 88%;
+    --color-text: 28 57% 20%; /* #5c3a1a */
+    --color-accent: 198 44% 69%; /* #8cc0de */
+  }
+
+  .theme-strawberry {
+    --color-primary: 345 85% 65%; /* #f56a87 */
+    --color-secondary: 345 100% 94%; /* #ffeaee */
+    --color-background: 345 100% 98%; /* #fff7f9 */
+    --color-background-alt: 345 100% 94%;
+    --color-text: 345 40% 35%; /* #8f3b4e */
+    --color-accent: 145 45% 70%; /* #8de0a6 */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+}
+
+@layer components {
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+}
