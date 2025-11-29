@@ -1,0 +1,13 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    </style>
+  </defs>
+  <text x="10" y="45" font-family="Pacifico, cursive" font-size="28" fill="hsl(var(--color-primary))">
+    Crumble
+  </text>
+  <text x="120" y="45" font-family="Quicksand, sans-serif" font-size="20" font-weight="600" fill="hsl(var(--color-text))">
+    Creations
+  </text>
+</svg>
